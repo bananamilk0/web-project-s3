@@ -1,0 +1,73 @@
+// src/data/lokasiData.js
+// Data lokasi strategis sekitar kost: Kampus, Pusat Perbelanjaan, dan Fasilitas Umum
+
+export const defaultLokasi = [
+  {
+    id: 'loc001',
+    nama: 'Universitas Indonesia (UI)',
+    tipe: 'kampus',
+    kategoriLabel: 'Perguruan Tinggi',
+    alamat: 'Jl. Margonda Raya, Pondok Cina, Beji, Depok',
+    jarakRataRata: '0.8 - 3.5 km',
+    isDefault: true,
+    deskripsi: 'Kampus utama UI Depok, titik acuan mahasiswa',
+    createdAt: '2026-10-28T00:00:00.000Z',
+  },
+  {
+    id: 'loc002',
+    nama: 'Universitas Gunadarma (Kampus D)',
+    tipe: 'kampus',
+    kategoriLabel: 'Perguruan Tinggi',
+    alamat: 'Jl. Margonda Raya No. 100, Pondok Cina, Depok',
+    jarakRataRata: '1.0 - 2.8 km',
+    isDefault: false,
+    deskripsi: 'Kampus utama Gunadarma di Margonda',
+    createdAt: '2026-10-28T00:00:00.000Z',
+  },
+  {
+    id: 'loc003',
+    nama: 'Margo City Mall',
+    tipe: 'mall',
+    kategoriLabel: 'Pusat Perbelanjaan',
+    alamat: 'Jl. Margonda Raya No. 358, Kemiri Muka, Beji, Depok',
+    jarakRataRata: '0.5 - 2.0 km',
+    isDefault: false,
+    deskripsi: 'Pusat belanja, kuliner, dan hiburan modern terbesar di Margonda',
+    createdAt: '2026-10-28T00:00:00.000Z',
+  },
+  {
+    id: 'loc004',
+    nama: 'Depok Town Square (DETOS)',
+    tipe: 'mall',
+    kategoriLabel: 'Pusat Perbelanjaan',
+    alamat: 'Jl. Margonda Raya No. 1, Pondok Cina, Beji, Depok',
+    jarakRataRata: '0.6 - 2.2 km',
+    isDefault: false,
+    deskripsi: 'Pusat perbelanjaan dan food court berseberangan dengan Margo City',
+    createdAt: '2026-10-28T00:00:00.000Z',
+  },
+  {
+    id: 'loc005',
+    nama: 'Stasiun KRL Pondok Cina',
+    tipe: 'fasilitas_umum',
+    kategoriLabel: 'Fasilitas Umum / Transportasi',
+    alamat: 'Pondok Cina, Beji, Kota Depok, Jawa Barat',
+    jarakRataRata: '0.3 - 1.8 km',
+    isDefault: false,
+    deskripsi: 'Stasiun commuter line utama untuk akses ke Jakarta dan Bogor',
+    createdAt: '2026-10-28T00:00:00.000Z',
+  },
+  {
+    id: 'loc006',
+    nama: 'RSUI (Rumah Sakit Universitas Indonesia)',
+    tipe: 'fasilitas_umum',
+    kategoriLabel: 'Fasilitas Umum / Kesehatan',
+    alamat: 'Jl. Prof. DR. Bahder Djohan, Pondok Cina, Beji, Depok',
+    jarakRataRata: '1.2 - 3.0 km',
+    isDefault: false,
+    deskripsi: 'Rumah sakit rujukan tipe B dengan fasilitas lengkap 24 jam',
+    createdAt: '2026-10-28T00:00:00.000Z',
+  },
+];
+
+export default defaultLokasi;
